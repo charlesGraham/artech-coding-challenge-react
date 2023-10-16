@@ -41,7 +41,7 @@ function Search() {
       </div>
       <Card className='col-12 shadow mb-5'>
         <Card.Body>
-          <Card.Title>Artech Search | Powered by Bing</Card.Title>
+          <Card.Title className='text-primary-emphasis'>Artech Search | Powered by <span className='text-primary'>Bing</span></Card.Title>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control type="text" onChange={handleInput} placeholder="What would you like to search for?" />
