@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
-import img from '../assets/logo.jpeg';
+import img from '../assets/generic-logo-transparent.png';
 import SearchResults from './SearchResults';
 
 
@@ -33,10 +33,11 @@ function Search() {
     event.target.reset();
   }
 
+
   return (
     <div className='mt-5'>
       <div className='mb-3 text-center'>
-        <img src={img} alt="mega man" className='mx-auto' style={{ "width": "500px" }} />
+        <img src={img} alt="mega man" className='mx-auto' style={{ "width": "150px" }} />
       </div>
       <Card className='col-12 shadow mb-5'>
         <Card.Body>
